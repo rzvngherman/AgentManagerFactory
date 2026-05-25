@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net10.0-windows10.0.22621.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <SupportedOSPlatformVersion>10.0.22621.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Anthropic.SDK" Version="5.10.0" />
+    <PackageReference Include="AWSSDK.Extensions.Bedrock.MEAI" Version="4.0.8.3" />
+    <PackageReference Include="Google_GenerativeAI.Microsoft" Version="3.6.6" />
+    <PackageReference Include="Microsoft.Agents.AI" Version="1.6.0" />
+    <PackageReference Include="Microsoft.Agents.AI.AzureAI" Version="1.0.0-rc5" />
+    <PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.6.0" />
+    <PackageReference Include="Microsoft.AI.Foundry.Local" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AI.Foundry.Local.Core.WinML" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.6.0" />
+    <PackageReference Include="Mistral.SDK" Version="2.3.1" />
+    <PackageReference Include="OllamaSharp" Version="5.4.25" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.7" />
+  </ItemGroup>
+
+</Project>
